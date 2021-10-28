@@ -1,0 +1,36 @@
+28/10/2021 10:51:08 AM: INFO - Starting - Test_AddCustomer_003
+28/10/2021 10:51:13 AM: INFO - Navigating To Application
+28/10/2021 10:51:27 AM: INFO - Login sucessful
+28/10/2021 10:51:27 AM: INFO - Starting Add New Customer Test
+28/10/2021 10:51:36 AM: INFO - Providing Customer Info
+28/10/2021 10:51:41 AM: INFO - Saving Customer Info
+28/10/2021 10:51:41 AM: INFO - Add Customer validation started
+28/10/2021 10:51:41 AM: INFO - Add customer Test passed
+28/10/2021 10:51:41 AM: INFO - ---------------Completed - Test_AddCustomer_003---------------
+28/10/2021 10:51:45 AM: INFO - Starting - Test_Login_DDT_002
+28/10/2021 10:51:52 AM: INFO - Navigating To Application
+28/10/2021 10:51:52 AM: INFO - Verifying Login DDT Test
+28/10/2021 10:52:08 AM: INFO - Test passed
+28/10/2021 10:52:20 AM: INFO - Test passed
+28/10/2021 10:52:26 AM: INFO - Test passed
+28/10/2021 10:52:32 AM: INFO - Test passed
+28/10/2021 10:52:32 AM: INFO - Login DDT Test passed
+28/10/2021 10:52:33 AM: INFO - ---------------Completed - Test_Login_DDT_002----------------
+28/10/2021 10:52:34 AM: INFO - Starting - Test_SearchByEmail_004
+28/10/2021 10:52:44 AM: INFO - Navigating To an Application
+28/10/2021 10:52:53 AM: INFO - Login sucessful
+28/10/2021 10:52:53 AM: INFO - Starting search Customer by Email
+28/10/2021 10:52:55 AM: INFO - Search Customer By Email
+28/10/2021 10:52:59 AM: INFO - ---------------Completed - Test_SearchByEmail_004----------------
+28/10/2021 10:53:00 AM: INFO - Starting - Test_SearchByName_005
+28/10/2021 10:53:07 AM: INFO - Navigating To an Application
+28/10/2021 10:53:17 AM: INFO - Login sucessful
+28/10/2021 10:53:17 AM: INFO - Starting search Customer by Email
+28/10/2021 10:53:20 AM: INFO - Search Customer By Email
+28/10/2021 10:53:28 AM: INFO - ---------------Completed - Test_SearchByName_005----------------
+28/10/2021 10:53:29 AM: INFO - Starting - Test_Login_001
+28/10/2021 10:53:34 AM: INFO - Navigationg To Application
+28/10/2021 10:53:34 AM: INFO - Verifying the Homepage Title
+28/10/2021 10:53:36 AM: INFO - Homepage Title test is Passed
+28/10/2021 10:53:37 AM: INFO - Verifying Login Test
+28/10/2021 10:53:51 AM: INFO - Login Test is Passed
