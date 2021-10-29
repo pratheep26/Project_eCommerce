@@ -10,7 +10,7 @@ from utilities import XLUtilies
 
 class Test_Login_DDT_003:
     baseURL=ReadConfig.getApplicationURL()
-    path=".\\TestData\\LoginData.xlsx"
+    path=".\\TestData\\LoginDataWithOutExp.xlsx"
 
     logger=custom_Logger.custstomLogger()
 
