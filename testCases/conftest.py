@@ -1,3 +1,6 @@
+import os.path
+import Drivers
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pytest
@@ -25,6 +28,9 @@ def pytest_addoption(parser):  # This will return value from CLI/hooks.
 def browser(request):    # This will return the Browser value to setup method.
     return request.config.getoption("--browser")
 
+def pytest_html_report_title(report):
+    report.title = "eCommerce Web App Automation_Report"
+
 
 ########### PyTest HTML Report ##############
 
@@ -34,8 +40,14 @@ def pytest_configure(config):
     config._metadata['Module Name'] = 'Customers'
     config._metadata['Tester'] = 'Pradeep'
 
+
+
+
 #It is hook for delete/modify Environment info to HTML Report
 @pytest.mark.optionalhook
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
     metadata.pop("Plugins", None)
+
+
+

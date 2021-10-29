@@ -3,7 +3,193 @@
   <head>
     <meta charset="utf-8"/>
     <title>Test Report</title>
-    <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
+    <style>body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  /* do not increase min-width as some may use split screens */
+  min-width: 800px;
+  color: #999;
+}
+
+h1 {
+  font-size: 24px;
+  color: black;
+}
+
+h2 {
+  font-size: 16px;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: #999;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/******************************
+ * SUMMARY INFORMATION
+ ******************************/
+#environment td {
+  padding: 5px;
+  border: 1px solid #E6E6E6;
+}
+#environment tr:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+
+/******************************
+ * TEST RESULT COLORS
+ ******************************/
+span.passed,
+.passed .col-result {
+  color: green;
+}
+
+span.skipped,
+span.xfailed,
+span.rerun,
+.skipped .col-result,
+.xfailed .col-result,
+.rerun .col-result {
+  color: orange;
+}
+
+span.error,
+span.failed,
+span.xpassed,
+.error .col-result,
+.failed .col-result,
+.xpassed .col-result {
+  color: red;
+}
+
+/******************************
+ * RESULTS TABLE
+ *
+ * 1. Table Layout
+ * 2. Extra
+ * 3. Sorting items
+ *
+ ******************************/
+/*------------------
+ * 1. Table Layout
+ *------------------*/
+#results-table {
+  border: 1px solid #e6e6e6;
+  color: #999;
+  font-size: 12px;
+  width: 100%;
+}
+#results-table th,
+#results-table td {
+  padding: 5px;
+  border: 1px solid #E6E6E6;
+  text-align: left;
+}
+#results-table th {
+  font-weight: bold;
+}
+
+/*------------------
+ * 2. Extra
+ *------------------*/
+.log {
+  background-color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  color: black;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  height: 230px;
+  overflow-y: scroll;
+  padding: 5px;
+  white-space: pre-wrap;
+}
+.log:only-child {
+  height: inherit;
+}
+
+div.image {
+  border: 1px solid #e6e6e6;
+  float: right;
+  height: 240px;
+  margin-left: 5px;
+  overflow: hidden;
+  width: 320px;
+}
+div.image img {
+  width: 320px;
+}
+
+div.video {
+  border: 1px solid #e6e6e6;
+  float: right;
+  height: 240px;
+  margin-left: 5px;
+  overflow: hidden;
+  width: 320px;
+}
+div.video video {
+  overflow: hidden;
+  width: 320px;
+  height: 240px;
+}
+
+.collapsed {
+  display: none;
+}
+
+.expander::after {
+  content: " (show details)";
+  color: #BBB;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.collapser::after {
+  content: " (hide details)";
+  color: #BBB;
+  font-style: italic;
+  cursor: pointer;
+}
+
+/*------------------
+ * 3. Sorting items
+ *------------------*/
+.sortable {
+  cursor: pointer;
+}
+
+.sort-icon {
+  font-size: 0px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  /*triangle*/
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+.inactive .sort-icon {
+  /*finish triangle*/
+  border-top: 8px solid #E6E6E6;
+}
+.asc.active .sort-icon {
+  /*finish triangle*/
+  border-bottom: 8px solid #999;
+}
+.desc.active .sort-icon {
+  /*finish triangle*/
+  border-top: 8px solid #999;
+}
+</style></head>
   <body onLoad="init()">
     <script>/* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
@@ -242,8 +428,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>Report.html</h1>
-    <p>Report generated on 28-Oct-2021 at 10:53:51 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <h1>eCommerce Web App Automation_Report</h1>
+    <p>Report generated on 28-Oct-2021 at 18:01:15 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -265,8 +451,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester</td>
         <td>Pradeep</td></tr></table>
     <h2>Summary</h2>
-    <p>6 tests ran in 165.34 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 25.82 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -280,94 +466,24 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_AddCustomer.py::Test_AddCustomer_003::test_addCustomer</td>
-          <td class="col-duration">34.78</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching chrome browser.......
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_AddCustomer_003:test_AddCustomer.py:20 Starting - Test_AddCustomer_003
-INFO     Test_AddCustomer_003:test_AddCustomer.py:23 Navigating To Application
-INFO     Test_AddCustomer_003:test_AddCustomer.py:31 Login sucessful
-INFO     Test_AddCustomer_003:test_AddCustomer.py:33 Starting Add New Customer Test
-INFO     Test_AddCustomer_003:test_AddCustomer.py:42 Providing Customer Info
-INFO     Test_AddCustomer_003:test_AddCustomer.py:57 Saving Customer Info
-INFO     Test_AddCustomer_003:test_AddCustomer.py:59 Add Customer validation started
-INFO     Test_AddCustomer_003:test_AddCustomer.py:65 Add customer Test passed
-INFO     Test_AddCustomer_003:test_AddCustomer.py:71 ---------------Completed - Test_AddCustomer_003---------------<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_Login_DDT.py::Test_Login_DDT_002::test_login_DDT</td>
-          <td class="col-duration">51.40</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching chrome browser.......
-<br/> ------------------------------Captured stdout call------------------------------ <br/>Number of rows in Excel: 5
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_Login_DDT_002:test_Login_DDT.py:20 Starting - Test_Login_DDT_002
-INFO     Test_Login_DDT_002:test_Login_DDT.py:23 Navigating To Application
-INFO     Test_Login_DDT_002:test_Login_DDT.py:26 Verifying Login DDT Test
-INFO     Test_Login_DDT_002:test_Login_DDT.py:49 Test passed
-INFO     Test_Login_DDT_002:test_Login_DDT.py:63 Test passed
-INFO     Test_Login_DDT_002:test_Login_DDT.py:63 Test passed
-INFO     Test_Login_DDT_002:test_Login_DDT.py:63 Test passed
-INFO     Test_Login_DDT_002:test_Login_DDT.py:67 Login DDT Test passed
-INFO     Test_Login_DDT_002:test_Login_DDT.py:75 ---------------Completed - Test_Login_DDT_002----------------<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_SearchByEmail.py::Test_SearchByEmail_004::test_searchByEmail</td>
-          <td class="col-duration">26.06</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching chrome browser.......
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_SearchByEmail_004:test_SearchByEmail.py:21 Starting - Test_SearchByEmail_004
-INFO     Test_SearchByEmail_004:test_SearchByEmail.py:24 Navigating To an Application
-INFO     Test_SearchByEmail_004:test_SearchByEmail.py:32 Login sucessful
-INFO     Test_SearchByEmail_004:test_SearchByEmail.py:34 Starting search Customer by Email
-INFO     Test_SearchByEmail_004:test_SearchByEmail.py:40 Search Customer By Email
-INFO     Test_SearchByEmail_004:test_SearchByEmail.py:49 ---------------Completed - Test_SearchByEmail_004----------------<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_SearchByName.py::Test_SearchByName_005::test_searchByName</td>
-          <td class="col-duration">29.22</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching chrome browser.......
-<br/> ------------------------------Captured stdout call------------------------------ <br/>Victoria Terces
-True
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_SearchByName_005:test_SearchByName.py:21 Starting - Test_SearchByName_005
-INFO     Test_SearchByName_005:test_SearchByName.py:24 Navigating To an Application
-INFO     Test_SearchByName_005:test_SearchByName.py:32 Login sucessful
-INFO     Test_SearchByName_005:test_SearchByName.py:34 Starting search Customer by Email
-INFO     Test_SearchByName_005:test_SearchByName.py:40 Search Customer By Email
-INFO     Test_SearchByName_005:test_SearchByName.py:53 ---------------Completed - Test_SearchByName_005----------------<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_login.py::Test_Login_001::test_homePageTitle</td>
-          <td class="col-duration">8.24</td>
-          <td class="col-links"></td></tr>
+          <td class="col-name">test_Login_001.py::Test_Login_001::test_homePageTitle</td>
+          <td class="col-duration">10.22</td>
+          <td class="col-links"><a class="url" href="http://www.example.com/" target="_blank">URL</a> </td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching chrome browser.......
 <br/> ------------------------------Captured stdout call------------------------------ <br/>Your store. Login
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_Login_001:test_login.py:18 Starting - Test_Login_001
-INFO     Test_Login_001:test_login.py:21 Navigationg To Application
-INFO     Test_Login_001:test_login.py:24 Verifying the Homepage Title
-INFO     Test_Login_001:test_login.py:28 Homepage Title test is Passed<br/></div></td></tr></tbody>
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_Login_001:test_Login_001.py:18 Starting - Test_Login_001
+INFO     Test_Login_001:test_Login_001.py:21 Navigating To Application
+INFO     Test_Login_001:test_Login_001.py:24 Verifying the Homepage Title
+INFO     Test_Login_001:test_Login_001.py:28 Homepage Title test is Passed<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_login.py::Test_Login_001::test_login</td>
-          <td class="col-duration">15.25</td>
+          <td class="col-name">test_Login_001.py::Test_Login_001::test_login</td>
+          <td class="col-duration">1.15</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Launching chrome browser.......
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_Login_001:test_login.py:38 Verifying Login Test
-INFO     Test_Login_001:test_login.py:48 Login Test is Passed<br/></div></td></tr></tbody></table></body></html>
+<br/></div></td></tr></tbody></table></body></html>
