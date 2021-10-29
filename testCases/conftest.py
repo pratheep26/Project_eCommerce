@@ -20,7 +20,7 @@ def setup(browser):
         driver=webdriver.Ie(service=path)
         print("Launching IE Browser....")
     return driver
-
+ 
 def pytest_addoption(parser):  # This will return value from CLI/hooks.
     parser.addoption("--browser")
 

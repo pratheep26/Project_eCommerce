@@ -120,3 +120,21 @@
 28/10/2021 18:01:00 PM: INFO - Homepage Title test is Passed
 28/10/2021 18:01:01 PM: INFO - Verifying Login Test
 28/10/2021 18:01:15 PM: ERROR - Login Test is Failed
+29/10/2021 11:25:54 AM: INFO - Starting - Test_Login_001
+29/10/2021 11:25:59 AM: INFO - Navigating To Application
+29/10/2021 11:25:59 AM: INFO - Verifying the Homepage Title
+29/10/2021 11:25:59 AM: INFO - Homepage Title test is Passed
+29/10/2021 11:26:00 AM: INFO - Verifying Login Test
+29/10/2021 11:26:12 AM: ERROR - Login Test is Failed
+29/10/2021 11:30:01 AM: INFO - Starting - Test_Login_001
+29/10/2021 11:30:06 AM: INFO - Navigating To Application
+29/10/2021 11:30:06 AM: INFO - Verifying the Homepage Title
+29/10/2021 11:30:06 AM: INFO - Homepage Title test is Passed
+29/10/2021 11:30:07 AM: INFO - Verifying Login Test
+29/10/2021 11:30:17 AM: INFO - Login Test is Passed
+29/10/2021 11:37:55 AM: INFO - Starting - Test_Login_001
+29/10/2021 11:38:00 AM: INFO - Navigating To Application
+29/10/2021 11:38:00 AM: INFO - Verifying the Homepage Title
+29/10/2021 11:38:04 AM: INFO - Homepage Title test is Passed
+29/10/2021 11:38:05 AM: INFO - Verifying Login Test
+29/10/2021 11:38:15 AM: INFO - Login Test is Passed
