@@ -10,14 +10,20 @@ def setup(browser):
     if browser=='chrome':
        path=Service(".\\Drivers\\chromedriver.exe")
        driver=webdriver.Chrome(service=path)
+       driver.maximize_window()
+       driver.implicitly_wait(10)
        print("Launching chrome browser.......")
     elif browser=='firefox':
         path=Service(".\\Drivers\\geckodriver.exe")
         driver=webdriver.Firefox(service=path)
+        driver.maximize_window()
+        driver.implicitly_wait(10)
         print("Launching Firefox browser....")
     else:
         path=Service(".\\Drivers\\IEDriverServer.exe")
         driver=webdriver.Ie(service=path)
+        driver.maximize_window()
+        driver.implicitly_wait(10)
         print("Launching IE Browser....")
     return driver
  

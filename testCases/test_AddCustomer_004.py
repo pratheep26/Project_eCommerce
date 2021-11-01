@@ -5,6 +5,7 @@ from pageObjects.Login_PageObjects import LoginPage
 from pageObjects.AddCustomer_PageObjects import AddCustomer
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import custom_Logger
+
 import string
 import random
 
@@ -15,13 +16,13 @@ class Test_AddCustomer_004:
 
     logger=custom_Logger.custstomLogger()
 
+
     @pytest.mark.sanity
-    def test_addCustomer(self,setup):
+    def test_addCustomer(self, setup):
         self.logger.info("Starting - Test_AddCustomer_004")
         self.driver=setup
         self.driver.get(self.baseURL)
         self.logger.info("Navigating To Application")
-        self.driver.maximize_window()
 
         self.loginPageObj=LoginPage(self.driver)
         self.loginPageObj.setUserName(self.username)

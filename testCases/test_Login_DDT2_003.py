@@ -14,6 +14,7 @@ class Test_Login_DDT_003:
 
     logger=custom_Logger.custstomLogger()
 
+    @pytest.mark.regression
     def test_login_DDT2(self,setup):
         self.logger.info("Starting - Test_Login_DDT_003")
 
