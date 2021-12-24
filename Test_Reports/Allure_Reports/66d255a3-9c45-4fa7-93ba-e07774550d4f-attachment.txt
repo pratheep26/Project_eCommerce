@@ -1,0 +1,2 @@
+[32mINFO    [0m Test_Login_001:test_Login_001.py:42 Verifying Login Test
+[31m[1mERROR   [0m Test_Login_001:test_Login_001.py:59 Login Test is Failed

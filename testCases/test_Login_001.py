@@ -1,11 +1,13 @@
+import allure
 import pytest
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 import logging
 from pageObjects.Login_PageObjects import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import custom_Logger
 
-
+@allure.severity(allure.severity_level.BLOCKER)
 class Test_Login_001:
     baseURL=ReadConfig.getApplicationURL()
     username=ReadConfig.getUserEmail()
@@ -14,6 +16,7 @@ class Test_Login_001:
     logger=custom_Logger.custstomLogger()
 
     @pytest.mark.regression
+    @allure.severity(allure.severity_level.MINOR)
     def test_homePageTitle(self,setup):
         self.logger.info("Starting - Test_Login_001")
         self.driver=setup
@@ -34,9 +37,11 @@ class Test_Login_001:
 
     @pytest.mark.sanity
     @pytest.mark.regression
+    @allure.severity(allure.severity_level.CRITICAL)
     def test_login(self,setup):
         self.logger.info("Verifying Login Test")
         self.driver=setup
+
         self.driver.get(self.baseURL)
         self.loginPageobjects=LoginPage(self.driver)
         self.loginPageobjects.setUserName(self.username)
@@ -49,6 +54,8 @@ class Test_Login_001:
             self.driver.close()
         else:
             self.driver.save_screenshot(".\\Screenshots\\"+"test_login.png")
+            allure.attach(self.driver.get_screenshot_as_png(), name="Test_Login.png",
+                             attachment_type=AttachmentType.PNG)
             self.driver.close()
             self.logger.error("Login Test is Failed")
             assert False

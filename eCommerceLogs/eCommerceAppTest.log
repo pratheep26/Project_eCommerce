@@ -380,3 +380,98 @@
 30/10/2021 15:38:03 PM: INFO - Homepage Title test is Passed
 30/10/2021 15:38:05 PM: INFO - Verifying Login Test
 30/10/2021 15:38:17 PM: INFO - Login Test is Passed
+16/12/2021 12:48:19 PM: INFO - Starting - Test_Login_001
+16/12/2021 12:48:22 PM: INFO - Navigating To Application
+16/12/2021 12:48:22 PM: INFO - Verifying the Homepage Title
+16/12/2021 12:48:27 PM: INFO - Homepage Title test is Passed
+16/12/2021 12:48:28 PM: INFO - Verifying Login Test
+16/12/2021 12:48:36 PM: INFO - Login Test is Passed
+16/12/2021 13:01:29 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:01:32 PM: INFO - Navigating To Application
+16/12/2021 13:01:32 PM: INFO - Verifying the Hamepage Title
+16/12/2021 13:01:36 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:01:38 PM: INFO - Verifying Login Test
+16/12/2021 13:01:47 PM: INFO - Login Test is Passed
+16/12/2021 13:02:12 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:02:16 PM: INFO - Navigating To Application
+16/12/2021 13:02:16 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:02:20 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:02:21 PM: INFO - Verifying Login Test
+16/12/2021 13:02:33 PM: ERROR - Login Test is Failed
+16/12/2021 13:03:15 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:03:20 PM: INFO - Navigating To Application
+16/12/2021 13:03:20 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:03:20 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:03:22 PM: INFO - Verifying Login Test
+16/12/2021 13:03:34 PM: ERROR - Login Test is Failed
+16/12/2021 13:17:22 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:17:23 PM: INFO - Navigating To Application
+16/12/2021 13:17:23 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:17:23 PM: ERROR - Homepage Title test is Failed
+16/12/2021 13:17:25 PM: INFO - Verifying Login Test
+16/12/2021 13:18:27 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:18:31 PM: INFO - Navigating To Application
+16/12/2021 13:18:31 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:18:35 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:18:37 PM: INFO - Verifying Login Test
+16/12/2021 13:20:25 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:20:29 PM: INFO - Navigating To Application
+16/12/2021 13:20:29 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:20:33 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:20:35 PM: INFO - Verifying Login Test
+16/12/2021 13:21:08 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:21:13 PM: INFO - Navigating To Application
+16/12/2021 13:21:13 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:21:17 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:21:19 PM: INFO - Verifying Login Test
+16/12/2021 13:21:27 PM: ERROR - Login Test is Failed
+16/12/2021 13:22:36 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:22:38 PM: INFO - Navigating To Application
+16/12/2021 13:22:38 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:22:43 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:22:44 PM: INFO - Verifying Login Test
+16/12/2021 13:26:08 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:26:13 PM: INFO - Navigating To Application
+16/12/2021 13:26:13 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:26:13 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:26:15 PM: INFO - Verifying Login Test
+16/12/2021 13:27:01 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:27:06 PM: INFO - Navigating To Application
+16/12/2021 13:27:06 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:27:10 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:27:12 PM: INFO - Verifying Login Test
+16/12/2021 13:29:44 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:29:49 PM: INFO - Navigating To Application
+16/12/2021 13:29:49 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:29:53 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:29:55 PM: INFO - Verifying Login Test
+16/12/2021 13:31:18 PM: INFO - Starting - Test_Login_001
+16/12/2021 13:31:24 PM: INFO - Navigating To Application
+16/12/2021 13:31:24 PM: INFO - Verifying the Homepage Title
+16/12/2021 13:31:28 PM: INFO - Homepage Title test is Passed
+16/12/2021 13:31:30 PM: INFO - Verifying Login Test
+16/12/2021 13:31:40 PM: ERROR - Login Test is Failed
+16/12/2021 14:41:35 PM: INFO - Starting - Test_Login_001
+16/12/2021 14:41:37 PM: INFO - Navigating To Application
+16/12/2021 14:41:37 PM: INFO - Verifying the Homepage Title
+16/12/2021 14:41:37 PM: INFO - Homepage Title test is Passed
+16/12/2021 14:41:39 PM: INFO - Verifying Login Test
+16/12/2021 14:41:50 PM: ERROR - Login Test is Failed
+16/12/2021 14:42:14 PM: INFO - Starting - Test_Login_001
+16/12/2021 14:42:16 PM: INFO - Navigating To Application
+16/12/2021 14:42:16 PM: INFO - Verifying the Homepage Title
+16/12/2021 14:42:20 PM: INFO - Homepage Title test is Passed
+16/12/2021 14:42:22 PM: INFO - Verifying Login Test
+16/12/2021 14:42:31 PM: INFO - Login Test is Passed
+16/12/2021 14:43:58 PM: INFO - Starting - Test_Login_001
+16/12/2021 14:44:02 PM: INFO - Navigating To Application
+16/12/2021 14:44:02 PM: INFO - Verifying the Homepage Title
+16/12/2021 14:44:06 PM: INFO - Homepage Title test is Passed
+16/12/2021 14:44:08 PM: INFO - Verifying Login Test
+16/12/2021 14:44:18 PM: INFO - Login Test is Passed
+17/12/2021 13:17:08 PM: INFO - Starting - Test_Login_001
+17/12/2021 13:17:10 PM: INFO - Navigating To Application
+17/12/2021 13:17:10 PM: INFO - Verifying the Homepage Title
+17/12/2021 13:17:10 PM: ERROR - Homepage Title test is Failed
+17/12/2021 13:17:12 PM: INFO - Verifying Login Test
+17/12/2021 13:17:24 PM: INFO - Starting - Test_SearchByEmail_005

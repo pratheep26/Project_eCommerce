@@ -1,0 +1,4 @@
+[32mINFO    [0m Test_Login_001:test_Login_001.py:21 Starting - Test_Login_001
+[32mINFO    [0m Test_Login_001:test_Login_001.py:24 Navigating To Application
+[32mINFO    [0m Test_Login_001:test_Login_001.py:27 Verifying the Homepage Title
+[32mINFO    [0m Test_Login_001:test_Login_001.py:31 Homepage Title test is Passed
