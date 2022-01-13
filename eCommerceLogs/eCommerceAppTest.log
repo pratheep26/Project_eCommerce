@@ -1,477 +1,319 @@
-28/10/2021 10:51:08 AM: INFO - Starting - Test_AddCustomer_003
-28/10/2021 10:51:13 AM: INFO - Navigating To Application
-28/10/2021 10:51:27 AM: INFO - Login sucessful
-28/10/2021 10:51:27 AM: INFO - Starting Add New Customer Test
-28/10/2021 10:51:36 AM: INFO - Providing Customer Info
-28/10/2021 10:51:41 AM: INFO - Saving Customer Info
-28/10/2021 10:51:41 AM: INFO - Add Customer validation started
-28/10/2021 10:51:41 AM: INFO - Add customer Test passed
-28/10/2021 10:51:41 AM: INFO - ---------------Completed - Test_AddCustomer_003---------------
-28/10/2021 10:51:45 AM: INFO - Starting - Test_Login_DDT_002
-28/10/2021 10:51:52 AM: INFO - Navigating To Application
-28/10/2021 10:51:52 AM: INFO - Verifying Login DDT Test
-28/10/2021 10:52:08 AM: INFO - Test passed
-28/10/2021 10:52:20 AM: INFO - Test passed
-28/10/2021 10:52:26 AM: INFO - Test passed
-28/10/2021 10:52:32 AM: INFO - Test passed
-28/10/2021 10:52:32 AM: INFO - Login DDT Test passed
-28/10/2021 10:52:33 AM: INFO - ---------------Completed - Test_Login_DDT_002----------------
-28/10/2021 10:52:34 AM: INFO - Starting - Test_SearchByEmail_004
-28/10/2021 10:52:44 AM: INFO - Navigating To an Application
-28/10/2021 10:52:53 AM: INFO - Login sucessful
-28/10/2021 10:52:53 AM: INFO - Starting search Customer by Email
-28/10/2021 10:52:55 AM: INFO - Search Customer By Email
-28/10/2021 10:52:59 AM: INFO - ---------------Completed - Test_SearchByEmail_004----------------
-28/10/2021 10:53:00 AM: INFO - Starting - Test_SearchByName_005
-28/10/2021 10:53:07 AM: INFO - Navigating To an Application
-28/10/2021 10:53:17 AM: INFO - Login sucessful
-28/10/2021 10:53:17 AM: INFO - Starting search Customer by Email
-28/10/2021 10:53:20 AM: INFO - Search Customer By Email
-28/10/2021 10:53:28 AM: INFO - ---------------Completed - Test_SearchByName_005----------------
-28/10/2021 10:53:29 AM: INFO - Starting - Test_Login_001
-28/10/2021 10:53:34 AM: INFO - Navigationg To Application
-28/10/2021 10:53:34 AM: INFO - Verifying the Homepage Title
-28/10/2021 10:53:36 AM: INFO - Homepage Title test is Passed
-28/10/2021 10:53:37 AM: INFO - Verifying Login Test
-28/10/2021 10:53:51 AM: INFO - Login Test is Passed
-28/10/2021 13:57:57 PM: INFO - Starting - Test_Login_001
-28/10/2021 13:58:02 PM: INFO - Navigating To Application
-28/10/2021 13:58:02 PM: INFO - Verifying the Homepage Title
-28/10/2021 13:58:02 PM: INFO - Homepage Title test is Passed
-28/10/2021 13:58:03 PM: INFO - Verifying Login Test
-28/10/2021 13:58:14 PM: ERROR - Login Test is Failed
-28/10/2021 16:06:20 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:06:24 PM: INFO - Navigating To Application
-28/10/2021 16:06:24 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:06:24 PM: INFO - Homepage Title test is Passed
-28/10/2021 16:06:26 PM: INFO - Verifying Login Test
-28/10/2021 16:06:36 PM: ERROR - Login Test is Failed
-28/10/2021 16:11:44 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:11:49 PM: INFO - Navigating To Application
-28/10/2021 16:11:49 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:11:49 PM: INFO - Homepage Title test is Passed
-28/10/2021 16:11:50 PM: INFO - Verifying Login Test
-28/10/2021 16:12:04 PM: ERROR - Login Test is Failed
-28/10/2021 16:15:24 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:15:27 PM: INFO - Navigating To Application
-28/10/2021 16:15:27 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:15:27 PM: INFO - Homepage Title test is Passed
-28/10/2021 16:15:28 PM: INFO - Verifying Login Test
-28/10/2021 16:15:43 PM: ERROR - Login Test is Failed
-28/10/2021 16:18:11 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:18:14 PM: INFO - Navigating To Application
-28/10/2021 16:18:14 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:18:18 PM: INFO - Homepage Title test is Passed
-28/10/2021 16:18:19 PM: INFO - Verifying Login Test
-28/10/2021 16:18:30 PM: ERROR - Login Test is Failed
-28/10/2021 16:21:15 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:21:19 PM: INFO - Navigating To Application
-28/10/2021 16:21:19 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:21:19 PM: INFO - Homepage Title test is Passed
-28/10/2021 16:21:20 PM: INFO - Verifying Login Test
-28/10/2021 16:21:30 PM: ERROR - Login Test is Failed
-28/10/2021 16:26:20 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:26:25 PM: INFO - Navigating To Application
-28/10/2021 16:26:25 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:26:25 PM: INFO - Homepage Title test is Passed
-28/10/2021 16:26:27 PM: INFO - Verifying Login Test
-28/10/2021 16:26:38 PM: ERROR - Login Test is Failed
-28/10/2021 16:50:45 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:50:48 PM: INFO - Navigating To Application
-28/10/2021 16:50:48 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:50:52 PM: INFO - Homepage Title test is Passed
-28/10/2021 16:50:54 PM: INFO - Verifying Login Test
-28/10/2021 16:51:11 PM: ERROR - Login Test is Failed
-28/10/2021 16:54:37 PM: INFO - Starting - Test_Login_001
-28/10/2021 16:54:40 PM: INFO - Navigating To Application
-28/10/2021 16:54:40 PM: INFO - Verifying the Homepage Title
-28/10/2021 16:54:40 PM: INFO - Homepage Title test is Passed
-28/10/2021 17:00:00 PM: INFO - Starting - Test_Login_001
-28/10/2021 17:00:05 PM: INFO - Navigating To Application
-28/10/2021 17:00:05 PM: INFO - Verifying the Homepage Title
-28/10/2021 17:00:09 PM: INFO - Homepage Title test is Passed
-28/10/2021 17:00:33 PM: INFO - Starting - Test_Login_001
-28/10/2021 17:00:38 PM: INFO - Navigating To Application
-28/10/2021 17:00:38 PM: INFO - Verifying the Homepage Title
-28/10/2021 17:00:42 PM: INFO - Homepage Title test is Passed
-28/10/2021 17:00:44 PM: INFO - Verifying Login Test
-28/10/2021 17:00:54 PM: ERROR - Login Test is Failed
-28/10/2021 17:07:17 PM: INFO - Starting - Test_Login_001
-28/10/2021 17:07:21 PM: INFO - Navigating To Application
-28/10/2021 17:07:21 PM: INFO - Verifying the Homepage Title
-28/10/2021 17:07:25 PM: INFO - Homepage Title test is Passed
-28/10/2021 17:07:26 PM: INFO - Verifying Login Test
-28/10/2021 17:07:36 PM: ERROR - Login Test is Failed
-28/10/2021 17:53:35 PM: INFO - Starting - Test_Login_001
-28/10/2021 17:53:43 PM: INFO - Navigating To Application
-28/10/2021 17:53:43 PM: INFO - Verifying the Homepage Title
-28/10/2021 17:53:47 PM: INFO - Homepage Title test is Passed
-28/10/2021 17:53:58 PM: INFO - Verifying Login Test
-28/10/2021 17:54:15 PM: ERROR - Login Test is Failed
-28/10/2021 17:55:58 PM: INFO - Starting - Test_Login_001
-28/10/2021 17:56:03 PM: INFO - Navigating To Application
-28/10/2021 17:56:03 PM: INFO - Verifying the Homepage Title
-28/10/2021 17:56:03 PM: INFO - Homepage Title test is Passed
-28/10/2021 17:56:14 PM: INFO - Verifying Login Test
-28/10/2021 17:56:43 PM: ERROR - Login Test is Failed
-28/10/2021 18:00:51 PM: INFO - Starting - Test_Login_001
-28/10/2021 18:00:55 PM: INFO - Navigating To Application
-28/10/2021 18:00:55 PM: INFO - Verifying the Homepage Title
-28/10/2021 18:01:00 PM: INFO - Homepage Title test is Passed
-28/10/2021 18:01:01 PM: INFO - Verifying Login Test
-28/10/2021 18:01:15 PM: ERROR - Login Test is Failed
-29/10/2021 11:25:54 AM: INFO - Starting - Test_Login_001
-29/10/2021 11:25:59 AM: INFO - Navigating To Application
-29/10/2021 11:25:59 AM: INFO - Verifying the Homepage Title
-29/10/2021 11:25:59 AM: INFO - Homepage Title test is Passed
-29/10/2021 11:26:00 AM: INFO - Verifying Login Test
-29/10/2021 11:26:12 AM: ERROR - Login Test is Failed
-29/10/2021 11:30:01 AM: INFO - Starting - Test_Login_001
-29/10/2021 11:30:06 AM: INFO - Navigating To Application
-29/10/2021 11:30:06 AM: INFO - Verifying the Homepage Title
-29/10/2021 11:30:06 AM: INFO - Homepage Title test is Passed
-29/10/2021 11:30:07 AM: INFO - Verifying Login Test
-29/10/2021 11:30:17 AM: INFO - Login Test is Passed
-29/10/2021 11:37:55 AM: INFO - Starting - Test_Login_001
-29/10/2021 11:38:00 AM: INFO - Navigating To Application
-29/10/2021 11:38:00 AM: INFO - Verifying the Homepage Title
-29/10/2021 11:38:04 AM: INFO - Homepage Title test is Passed
-29/10/2021 11:38:05 AM: INFO - Verifying Login Test
-29/10/2021 11:38:15 AM: INFO - Login Test is Passed
-29/10/2021 12:00:40 PM: INFO - Starting - Test_Login_001
-29/10/2021 12:00:44 PM: INFO - Navigating To Application
-29/10/2021 12:00:44 PM: INFO - Verifying the Homepage Title
-29/10/2021 12:00:45 PM: INFO - Homepage Title test is Passed
-29/10/2021 12:00:46 PM: INFO - Verifying Login Test
-29/10/2021 12:00:56 PM: INFO - Login Test is Passed
-29/10/2021 12:38:15 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 12:38:19 PM: INFO - Starting - Test_Login_001
-29/10/2021 12:40:06 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 12:40:09 PM: INFO - Starting - Test_Login_001
-29/10/2021 12:40:11 PM: INFO - Verifying Login Test
-29/10/2021 12:41:05 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 12:41:08 PM: INFO - Starting - Test_Login_001
-29/10/2021 12:41:11 PM: INFO - Verifying Login Test
-29/10/2021 12:41:13 PM: INFO - Starting - Test_Login_DDT_002
-29/10/2021 12:41:16 PM: INFO - Starting - Test_SearchByEmail_005
-29/10/2021 12:41:21 PM: INFO - Navigating To an Application
-29/10/2021 12:41:24 PM: INFO - Login Successful
-29/10/2021 12:41:24 PM: INFO - Starting search Customer by Email
-29/10/2021 12:41:38 PM: INFO - Verifying Login Test
-29/10/2021 12:41:49 PM: INFO - Login Test is Passed
-29/10/2021 12:41:58 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 12:42:04 PM: INFO - Starting - Test_Login_001
-29/10/2021 12:42:08 PM: INFO - Navigating To Application
-29/10/2021 12:42:08 PM: INFO - Verifying the Homepage Title
-29/10/2021 12:42:19 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 12:42:22 PM: INFO - Starting - Test_Login_001
-29/10/2021 12:42:27 PM: INFO - Navigating To Application
-29/10/2021 12:42:27 PM: INFO - Verifying the Homepage Title
-29/10/2021 12:45:14 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 12:45:19 PM: INFO - Navigating To Application
-29/10/2021 12:45:24 PM: INFO - Login Successful
-29/10/2021 12:45:24 PM: INFO - Starting Add New Customer Test
-29/10/2021 12:45:31 PM: INFO - Providing Customer Info
-29/10/2021 12:45:33 PM: INFO - Saving Customer Info
-29/10/2021 12:45:33 PM: INFO - Add Customer validation started
-29/10/2021 12:45:35 PM: INFO - Add customer Test passed
-29/10/2021 12:45:35 PM: INFO - ---------------Completed - Test_AddCustomer_004---------------
-29/10/2021 12:45:36 PM: INFO - Verifying Login Test
-29/10/2021 12:45:46 PM: INFO - Login Test is Passed
-29/10/2021 12:47:07 PM: INFO - Starting - Test_Login_DDT_002
-29/10/2021 12:47:10 PM: INFO - Navigating To Application
-29/10/2021 12:47:10 PM: INFO - Verifying Login DDT Test
-29/10/2021 12:47:20 PM: INFO - Test passed
-29/10/2021 12:47:29 PM: INFO - Test passed
-29/10/2021 12:47:35 PM: INFO - Test passed
-29/10/2021 12:47:41 PM: INFO - Test passed
-29/10/2021 12:47:41 PM: INFO - Login DDT Test passed
-29/10/2021 12:47:41 PM: INFO - ---------------Completed - Test_Login_DDT_002----------------
-29/10/2021 12:51:11 PM: INFO - Starting - Test_Login_DDT_003
-29/10/2021 12:51:16 PM: INFO - Navigating To Application
-29/10/2021 12:51:16 PM: INFO - Verifying Login DDT Test
-29/10/2021 12:51:30 PM: INFO - ---------------Completed - Test_Login_DDT_003----------------
-29/10/2021 12:52:22 PM: INFO - Starting - Test_SearchByEmail_005
-29/10/2021 12:52:24 PM: INFO - Navigating To an Application
-29/10/2021 12:52:29 PM: INFO - Login Successful
-29/10/2021 12:52:29 PM: INFO - Starting search Customer by Email
-29/10/2021 12:52:31 PM: INFO - Search Customer By Email
-29/10/2021 12:52:35 PM: INFO - ---------------Completed - Test_SearchByEmail_005----------------
-29/10/2021 12:53:03 PM: INFO - Starting - Test_SearchByName_006
-29/10/2021 12:53:08 PM: INFO - Navigating To an Application
-29/10/2021 12:53:12 PM: INFO - Login Successful
-29/10/2021 12:53:12 PM: INFO - Starting search Customer by Email
-29/10/2021 12:53:15 PM: INFO - Search Customer By Email
-29/10/2021 12:53:23 PM: INFO - ---------------Completed - Test_SearchByName_006----------------
-29/10/2021 12:56:43 PM: INFO - Starting - Test_Login_001
-29/10/2021 12:56:48 PM: INFO - Navigating To Application
-29/10/2021 12:56:48 PM: INFO - Verifying the Homepage Title
-29/10/2021 12:56:48 PM: INFO - Homepage Title test is Passed
-29/10/2021 12:56:49 PM: INFO - Verifying Login Test
-29/10/2021 15:07:46 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 15:07:48 PM: INFO - Verifying Login Test
-29/10/2021 15:09:06 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 15:09:10 PM: INFO - Navigating To Application
-29/10/2021 15:09:14 PM: INFO - Login Successful
-29/10/2021 15:09:14 PM: INFO - Starting Add New Customer Test
-29/10/2021 15:09:24 PM: INFO - Starting - Test_Login_001
-29/10/2021 15:09:28 PM: INFO - Navigating To Application
-29/10/2021 15:09:28 PM: INFO - Verifying the Homepage Title
-29/10/2021 15:09:30 PM: INFO - Homepage Title test is Passed
-29/10/2021 15:09:36 PM: INFO - Verifying Login Test
-29/10/2021 15:09:46 PM: INFO - Login Test is Passed
-29/10/2021 15:09:54 PM: INFO - Starting - Test_Login_DDT_003
-29/10/2021 15:09:59 PM: INFO - Navigating To Application
-29/10/2021 15:09:59 PM: INFO - Verifying Login DDT Test
-29/10/2021 15:10:11 PM: INFO - Starting - Test_Login_DDT_002
-29/10/2021 15:10:14 PM: INFO - Navigating To Application
-29/10/2021 15:10:14 PM: INFO - Verifying Login DDT Test
-29/10/2021 15:10:23 PM: INFO - Test passed
-29/10/2021 15:10:32 PM: INFO - Test passed
-29/10/2021 15:10:38 PM: INFO - Test passed
-29/10/2021 15:10:43 PM: INFO - Test passed
-29/10/2021 15:10:43 PM: INFO - Login DDT Test passed
-29/10/2021 15:10:45 PM: INFO - ---------------Completed - Test_Login_DDT_002----------------
-29/10/2021 15:10:52 PM: INFO - Starting - Test_SearchByEmail_005
-29/10/2021 15:10:56 PM: INFO - Navigating To an Application
-29/10/2021 15:11:01 PM: INFO - Login Successful
-29/10/2021 15:11:01 PM: INFO - Starting search Customer by Email
-29/10/2021 15:11:08 PM: INFO - Starting - Test_SearchByName_006
-29/10/2021 15:11:12 PM: INFO - Navigating To an Application
-29/10/2021 15:11:16 PM: INFO - Login Successful
-29/10/2021 15:11:16 PM: INFO - Starting search Customer by Email
-29/10/2021 15:15:41 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 15:15:46 PM: INFO - Navigating To Application
-29/10/2021 15:15:51 PM: INFO - Login Successful
-29/10/2021 15:15:51 PM: INFO - Starting Add New Customer Test
-29/10/2021 15:15:59 PM: INFO - Providing Customer Info
-29/10/2021 15:16:03 PM: INFO - Saving Customer Info
-29/10/2021 15:16:03 PM: INFO - Add Customer validation started
-29/10/2021 15:16:03 PM: INFO - Add customer Test passed
-29/10/2021 15:16:03 PM: INFO - ---------------Completed - Test_AddCustomer_004---------------
-29/10/2021 15:16:05 PM: INFO - Starting - Test_Login_001
-29/10/2021 15:16:10 PM: INFO - Navigating To Application
-29/10/2021 15:16:10 PM: INFO - Verifying the Homepage Title
-29/10/2021 15:16:14 PM: INFO - Homepage Title test is Passed
-29/10/2021 15:16:15 PM: INFO - Verifying Login Test
-29/10/2021 15:16:24 PM: INFO - Login Test is Passed
-29/10/2021 15:16:25 PM: INFO - Starting - Test_Login_DDT_003
-29/10/2021 15:16:30 PM: INFO - Navigating To Application
-29/10/2021 15:16:30 PM: INFO - Verifying Login DDT Test
-29/10/2021 15:16:51 PM: INFO - ---------------Completed - Test_Login_DDT_003----------------
-29/10/2021 15:16:53 PM: INFO - Starting - Test_Login_DDT_002
-29/10/2021 15:16:56 PM: INFO - Navigating To Application
-29/10/2021 15:16:56 PM: INFO - Verifying Login DDT Test
-29/10/2021 15:17:07 PM: INFO - Test passed
-29/10/2021 15:17:17 PM: INFO - Test passed
-29/10/2021 15:17:23 PM: INFO - Test passed
-29/10/2021 15:17:29 PM: INFO - Test passed
-29/10/2021 15:17:29 PM: INFO - Login DDT Test passed
-29/10/2021 15:17:29 PM: INFO - ---------------Completed - Test_Login_DDT_002----------------
-29/10/2021 15:17:31 PM: INFO - Starting - Test_SearchByEmail_005
-29/10/2021 15:17:35 PM: INFO - Navigating To an Application
-29/10/2021 15:17:41 PM: INFO - Login Successful
-29/10/2021 15:17:41 PM: INFO - Starting search Customer by Email
-29/10/2021 15:17:44 PM: INFO - Search Customer By Email
-29/10/2021 15:17:47 PM: INFO - ---------------Completed - Test_SearchByEmail_005----------------
-29/10/2021 15:17:49 PM: INFO - Starting - Test_SearchByName_006
-29/10/2021 15:17:54 PM: INFO - Navigating To an Application
-29/10/2021 15:18:02 PM: INFO - Login Successful
-29/10/2021 15:18:02 PM: INFO - Starting search Customer by Email
-29/10/2021 15:18:04 PM: INFO - Search Customer By Email
-29/10/2021 15:18:12 PM: INFO - ---------------Completed - Test_SearchByName_006----------------
-29/10/2021 15:21:32 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 15:21:36 PM: INFO - Navigating To Application
-29/10/2021 15:21:44 PM: INFO - Login Successful
-29/10/2021 15:21:44 PM: INFO - Starting Add New Customer Test
-29/10/2021 15:21:50 PM: INFO - Providing Customer Info
-29/10/2021 15:21:54 PM: INFO - Saving Customer Info
-29/10/2021 15:21:54 PM: INFO - Add Customer validation started
-29/10/2021 15:21:54 PM: INFO - Add customer Test passed
-29/10/2021 15:21:54 PM: INFO - ---------------Completed - Test_AddCustomer_004---------------
-29/10/2021 15:21:56 PM: INFO - Starting - Test_Login_001
-29/10/2021 15:22:01 PM: INFO - Navigating To Application
-29/10/2021 15:22:01 PM: INFO - Verifying the Homepage Title
-29/10/2021 15:22:05 PM: INFO - Homepage Title test is Passed
-29/10/2021 15:22:07 PM: INFO - Verifying Login Test
-29/10/2021 15:22:15 PM: INFO - Login Test is Passed
-29/10/2021 15:22:17 PM: INFO - Starting - Test_Login_DDT_003
-29/10/2021 15:22:22 PM: INFO - Navigating To Application
-29/10/2021 15:22:22 PM: INFO - Verifying Login DDT Test
-29/10/2021 15:22:41 PM: INFO - ---------------Completed - Test_Login_DDT_003----------------
-29/10/2021 15:22:42 PM: INFO - Starting - Test_Login_DDT_002
-29/10/2021 15:22:47 PM: INFO - Navigating To Application
-29/10/2021 15:22:47 PM: INFO - Verifying Login DDT Test
-29/10/2021 15:22:59 PM: INFO - Test passed
-29/10/2021 15:23:08 PM: INFO - Test passed
-29/10/2021 15:23:14 PM: INFO - Test passed
-29/10/2021 15:23:20 PM: INFO - Test passed
-29/10/2021 15:23:20 PM: INFO - Login DDT Test passed
-29/10/2021 15:23:20 PM: INFO - ---------------Completed - Test_Login_DDT_002----------------
-29/10/2021 15:23:22 PM: INFO - Starting - Test_SearchByEmail_005
-29/10/2021 15:23:27 PM: INFO - Navigating To an Application
-29/10/2021 15:23:36 PM: INFO - Login Successful
-29/10/2021 15:23:36 PM: INFO - Starting search Customer by Email
-29/10/2021 15:23:39 PM: INFO - Search Customer By Email
-29/10/2021 15:23:43 PM: INFO - ---------------Completed - Test_SearchByEmail_005----------------
-29/10/2021 15:23:44 PM: INFO - Starting - Test_SearchByName_006
-29/10/2021 15:23:46 PM: INFO - Navigating To an Application
-29/10/2021 15:23:55 PM: INFO - Login Successful
-29/10/2021 15:23:55 PM: INFO - Starting search Customer by Email
-29/10/2021 15:23:57 PM: INFO - Search Customer By Email
-29/10/2021 15:24:06 PM: INFO - ---------------Completed - Test_SearchByName_006----------------
-29/10/2021 15:28:39 PM: INFO - Starting - Test_Login_001
-29/10/2021 15:28:44 PM: INFO - Navigating To Application
-29/10/2021 15:28:44 PM: INFO - Verifying the Homepage Title
-29/10/2021 15:28:44 PM: INFO - Homepage Title test is Passed
-29/10/2021 15:28:46 PM: INFO - Verifying Login Test
-29/10/2021 15:28:56 PM: INFO - Login Test is Passed
-29/10/2021 15:31:35 PM: INFO - Verifying Login Test
-29/10/2021 15:31:45 PM: INFO - Login Test is Passed
-29/10/2021 15:32:29 PM: INFO - Verifying Login Test
-29/10/2021 15:32:38 PM: INFO - Login Test is Passed
-29/10/2021 15:33:11 PM: INFO - Verifying Login Test
-29/10/2021 15:33:21 PM: INFO - Login Test is Passed
-29/10/2021 15:55:36 PM: INFO - Verifying Login Test
-29/10/2021 15:55:47 PM: INFO - Login Test is Passed
-29/10/2021 15:56:20 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 15:56:22 PM: INFO - Verifying Login Test
-29/10/2021 15:56:32 PM: INFO - Login Test is Passed
-29/10/2021 15:57:16 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 15:57:17 PM: INFO - Verifying Login Test
-29/10/2021 15:57:27 PM: INFO - Login Test is Passed
-29/10/2021 15:58:14 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 15:58:16 PM: INFO - Verifying Login Test
-29/10/2021 15:58:26 PM: INFO - Login Test is Passed
-29/10/2021 16:14:11 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 16:14:11 PM: INFO - Login Successful
-29/10/2021 16:14:11 PM: INFO - Starting Add New Customer Test
-29/10/2021 16:16:26 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 16:16:26 PM: INFO - Login Successful
-29/10/2021 16:16:26 PM: INFO - Starting Add New Customer Test
-29/10/2021 16:57:51 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 16:57:51 PM: INFO - Login Successful
-29/10/2021 16:57:51 PM: INFO - Starting Add New Customer Test
-29/10/2021 16:59:07 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 16:59:07 PM: INFO - Login Successful
-29/10/2021 16:59:07 PM: INFO - Starting Add New Customer Test
-29/10/2021 16:59:18 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 16:59:18 PM: INFO - Login Successful
-29/10/2021 16:59:18 PM: INFO - Starting Add New Customer Test
-29/10/2021 17:00:11 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 17:00:11 PM: INFO - Login Successful
-29/10/2021 17:00:11 PM: INFO - Starting Add New Customer Test
-29/10/2021 17:03:13 PM: INFO - Starting - Test_AddCustomer_004
-29/10/2021 17:03:13 PM: INFO - Login Successful
-29/10/2021 17:03:13 PM: INFO - Starting Add New Customer Test
-29/10/2021 17:04:04 PM: INFO - Starting - Test_AddCustomer_004
-30/10/2021 11:58:35 AM: INFO - Starting - Test_AddCustomer_004
-30/10/2021 11:58:40 AM: INFO - Navigating To Application
-30/10/2021 11:58:44 AM: INFO - Login Successful
-30/10/2021 11:58:44 AM: INFO - Starting Add New Customer Test
-30/10/2021 11:58:50 AM: INFO - Providing Customer Info
-30/10/2021 11:58:52 AM: INFO - Saving Customer Info
-30/10/2021 11:58:52 AM: INFO - Add Customer validation started
-30/10/2021 11:58:52 AM: INFO - Add customer Test passed
-30/10/2021 11:58:52 AM: INFO - ---------------Completed - Test_AddCustomer_004---------------
-30/10/2021 15:37:55 PM: INFO - Starting - Test_Login_001
-30/10/2021 15:37:59 PM: INFO - Navigating To Application
-30/10/2021 15:37:59 PM: INFO - Verifying the Homepage Title
-30/10/2021 15:38:03 PM: INFO - Homepage Title test is Passed
-30/10/2021 15:38:05 PM: INFO - Verifying Login Test
-30/10/2021 15:38:17 PM: INFO - Login Test is Passed
-16/12/2021 12:48:19 PM: INFO - Starting - Test_Login_001
-16/12/2021 12:48:22 PM: INFO - Navigating To Application
-16/12/2021 12:48:22 PM: INFO - Verifying the Homepage Title
-16/12/2021 12:48:27 PM: INFO - Homepage Title test is Passed
-16/12/2021 12:48:28 PM: INFO - Verifying Login Test
-16/12/2021 12:48:36 PM: INFO - Login Test is Passed
-16/12/2021 13:01:29 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:01:32 PM: INFO - Navigating To Application
-16/12/2021 13:01:32 PM: INFO - Verifying the Hamepage Title
-16/12/2021 13:01:36 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:01:38 PM: INFO - Verifying Login Test
-16/12/2021 13:01:47 PM: INFO - Login Test is Passed
-16/12/2021 13:02:12 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:02:16 PM: INFO - Navigating To Application
-16/12/2021 13:02:16 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:02:20 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:02:21 PM: INFO - Verifying Login Test
-16/12/2021 13:02:33 PM: ERROR - Login Test is Failed
-16/12/2021 13:03:15 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:03:20 PM: INFO - Navigating To Application
-16/12/2021 13:03:20 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:03:20 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:03:22 PM: INFO - Verifying Login Test
-16/12/2021 13:03:34 PM: ERROR - Login Test is Failed
-16/12/2021 13:17:22 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:17:23 PM: INFO - Navigating To Application
-16/12/2021 13:17:23 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:17:23 PM: ERROR - Homepage Title test is Failed
-16/12/2021 13:17:25 PM: INFO - Verifying Login Test
-16/12/2021 13:18:27 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:18:31 PM: INFO - Navigating To Application
-16/12/2021 13:18:31 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:18:35 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:18:37 PM: INFO - Verifying Login Test
-16/12/2021 13:20:25 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:20:29 PM: INFO - Navigating To Application
-16/12/2021 13:20:29 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:20:33 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:20:35 PM: INFO - Verifying Login Test
-16/12/2021 13:21:08 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:21:13 PM: INFO - Navigating To Application
-16/12/2021 13:21:13 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:21:17 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:21:19 PM: INFO - Verifying Login Test
-16/12/2021 13:21:27 PM: ERROR - Login Test is Failed
-16/12/2021 13:22:36 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:22:38 PM: INFO - Navigating To Application
-16/12/2021 13:22:38 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:22:43 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:22:44 PM: INFO - Verifying Login Test
-16/12/2021 13:26:08 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:26:13 PM: INFO - Navigating To Application
-16/12/2021 13:26:13 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:26:13 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:26:15 PM: INFO - Verifying Login Test
-16/12/2021 13:27:01 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:27:06 PM: INFO - Navigating To Application
-16/12/2021 13:27:06 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:27:10 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:27:12 PM: INFO - Verifying Login Test
-16/12/2021 13:29:44 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:29:49 PM: INFO - Navigating To Application
-16/12/2021 13:29:49 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:29:53 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:29:55 PM: INFO - Verifying Login Test
-16/12/2021 13:31:18 PM: INFO - Starting - Test_Login_001
-16/12/2021 13:31:24 PM: INFO - Navigating To Application
-16/12/2021 13:31:24 PM: INFO - Verifying the Homepage Title
-16/12/2021 13:31:28 PM: INFO - Homepage Title test is Passed
-16/12/2021 13:31:30 PM: INFO - Verifying Login Test
-16/12/2021 13:31:40 PM: ERROR - Login Test is Failed
-16/12/2021 14:41:35 PM: INFO - Starting - Test_Login_001
-16/12/2021 14:41:37 PM: INFO - Navigating To Application
-16/12/2021 14:41:37 PM: INFO - Verifying the Homepage Title
-16/12/2021 14:41:37 PM: INFO - Homepage Title test is Passed
-16/12/2021 14:41:39 PM: INFO - Verifying Login Test
-16/12/2021 14:41:50 PM: ERROR - Login Test is Failed
-16/12/2021 14:42:14 PM: INFO - Starting - Test_Login_001
-16/12/2021 14:42:16 PM: INFO - Navigating To Application
-16/12/2021 14:42:16 PM: INFO - Verifying the Homepage Title
-16/12/2021 14:42:20 PM: INFO - Homepage Title test is Passed
-16/12/2021 14:42:22 PM: INFO - Verifying Login Test
-16/12/2021 14:42:31 PM: INFO - Login Test is Passed
-16/12/2021 14:43:58 PM: INFO - Starting - Test_Login_001
-16/12/2021 14:44:02 PM: INFO - Navigating To Application
-16/12/2021 14:44:02 PM: INFO - Verifying the Homepage Title
-16/12/2021 14:44:06 PM: INFO - Homepage Title test is Passed
-16/12/2021 14:44:08 PM: INFO - Verifying Login Test
-16/12/2021 14:44:18 PM: INFO - Login Test is Passed
-17/12/2021 13:17:08 PM: INFO - Starting - Test_Login_001
-17/12/2021 13:17:10 PM: INFO - Navigating To Application
-17/12/2021 13:17:10 PM: INFO - Verifying the Homepage Title
-17/12/2021 13:17:10 PM: ERROR - Homepage Title test is Failed
-17/12/2021 13:17:12 PM: INFO - Verifying Login Test
-17/12/2021 13:17:24 PM: INFO - Starting - Test_SearchByEmail_005
+09/01/2022 19:05:38 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:05:43 PM: INFO - Navigating To Application
+09/01/2022 19:05:50 PM: INFO - Login Successful
+09/01/2022 19:05:50 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:05:56 PM: INFO - Providing Customer Info
+09/01/2022 19:11:21 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:11:26 PM: INFO - Navigating To Application
+09/01/2022 19:11:33 PM: INFO - Login Successful
+09/01/2022 19:11:33 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:11:39 PM: INFO - Providing Customer Info
+09/01/2022 19:12:28 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:12:34 PM: INFO - Navigating To Application
+09/01/2022 19:12:42 PM: INFO - Login Successful
+09/01/2022 19:12:42 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:12:49 PM: INFO - Providing Customer Info
+09/01/2022 19:26:06 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:26:10 PM: INFO - Navigating To Application
+09/01/2022 19:26:16 PM: INFO - Login Successful
+09/01/2022 19:26:16 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:26:26 PM: INFO - Providing Customer Info
+09/01/2022 19:33:53 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:33:58 PM: INFO - Navigating To Application
+09/01/2022 19:34:05 PM: INFO - Login Successful
+09/01/2022 19:34:05 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:34:10 PM: INFO - Providing Customer Info
+09/01/2022 19:36:20 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:36:24 PM: INFO - Navigating To Application
+09/01/2022 19:36:31 PM: INFO - Login Successful
+09/01/2022 19:36:31 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:36:38 PM: INFO - Providing Customer Info
+09/01/2022 19:38:16 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:38:18 PM: INFO - Navigating To Application
+09/01/2022 19:38:24 PM: INFO - Login Successful
+09/01/2022 19:38:24 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:38:31 PM: INFO - Providing Customer Info
+09/01/2022 19:38:32 PM: INFO - Saving Customer Info
+09/01/2022 19:38:32 PM: INFO - Add Customer validation started
+09/01/2022 19:38:32 PM: ERROR - Add Customer Test failed
+09/01/2022 19:38:32 PM: INFO - ---------------Completed - Test_AddCustomer_004---------------
+09/01/2022 19:39:24 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:39:28 PM: INFO - Navigating To Application
+09/01/2022 19:39:35 PM: INFO - Login Successful
+09/01/2022 19:39:35 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:39:42 PM: INFO - Providing Customer Info
+09/01/2022 19:39:57 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:40:03 PM: INFO - Navigating To Application
+09/01/2022 19:40:08 PM: INFO - Login Successful
+09/01/2022 19:40:08 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:40:15 PM: INFO - Providing Customer Info
+09/01/2022 19:54:35 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:54:40 PM: INFO - Navigating To Application
+09/01/2022 19:54:47 PM: INFO - Login Successful
+09/01/2022 19:54:47 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:54:53 PM: INFO - Providing Customer Info
+09/01/2022 19:55:18 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:55:21 PM: INFO - Navigating To Application
+09/01/2022 19:55:28 PM: INFO - Login Successful
+09/01/2022 19:55:28 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:55:36 PM: INFO - Providing Customer Info
+09/01/2022 19:57:57 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:58:01 PM: INFO - Navigating To Application
+09/01/2022 19:58:07 PM: INFO - Login Successful
+09/01/2022 19:58:07 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:58:14 PM: INFO - Providing Customer Info
+09/01/2022 19:58:46 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 19:58:50 PM: INFO - Navigating To Application
+09/01/2022 19:58:56 PM: INFO - Login Successful
+09/01/2022 19:58:56 PM: INFO - Starting Add New Customer Test
+09/01/2022 19:59:03 PM: INFO - Providing Customer Info
+09/01/2022 20:01:51 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 20:01:56 PM: INFO - Navigating To Application
+09/01/2022 20:02:06 PM: INFO - Login Successful
+09/01/2022 20:02:06 PM: INFO - Starting Add New Customer Test
+09/01/2022 20:02:17 PM: INFO - Providing Customer Info
+09/01/2022 20:04:10 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 20:04:16 PM: INFO - Navigating To Application
+09/01/2022 20:04:23 PM: INFO - Login Successful
+09/01/2022 20:04:23 PM: INFO - Starting Add New Customer Test
+09/01/2022 20:04:29 PM: INFO - Providing Customer Info
+09/01/2022 20:05:39 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 20:05:44 PM: INFO - Navigating To Application
+09/01/2022 20:05:49 PM: INFO - Login Successful
+09/01/2022 20:05:49 PM: INFO - Starting Add New Customer Test
+09/01/2022 20:05:56 PM: INFO - Providing Customer Info
+09/01/2022 20:55:50 PM: INFO - Starting - Test_Login_DDT_002
+09/01/2022 20:55:54 PM: INFO - Navigating To Application
+09/01/2022 20:55:54 PM: INFO - Verifying Login DDT Test
+09/01/2022 20:56:34 PM: INFO - Starting - Test_Login_DDT_002
+09/01/2022 20:56:39 PM: INFO - Navigating To Application
+09/01/2022 20:56:39 PM: INFO - Verifying Login DDT Test
+09/01/2022 20:57:07 PM: INFO - Starting - Test_Login_DDT_002
+09/01/2022 20:57:11 PM: INFO - Navigating To Application
+09/01/2022 20:57:11 PM: INFO - Verifying Login DDT Test
+09/01/2022 21:03:12 PM: INFO - Starting - Test_Login_DDT_002
+09/01/2022 21:03:16 PM: INFO - Navigating To Application
+09/01/2022 21:03:16 PM: INFO - Verifying Login DDT Test
+09/01/2022 21:03:32 PM: INFO - Test passed
+09/01/2022 21:03:41 PM: INFO - Test passed
+09/01/2022 21:04:50 PM: INFO - Starting - Test_Login_DDT_002
+09/01/2022 21:04:53 PM: INFO - Navigating To Application
+09/01/2022 21:04:53 PM: INFO - Verifying Login DDT Test
+09/01/2022 21:05:03 PM: INFO - Test passed
+09/01/2022 21:05:11 PM: INFO - Test passed
+09/01/2022 21:05:17 PM: INFO - Test passed
+09/01/2022 21:05:23 PM: INFO - Test passed
+09/01/2022 21:05:23 PM: INFO - Login DDT Test passed
+09/01/2022 21:05:23 PM: INFO - ---------------Completed - Test_Login_DDT_002----------------
+09/01/2022 21:06:34 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 21:06:39 PM: INFO - Navigating To Application
+09/01/2022 21:06:44 PM: INFO - Login Successful
+09/01/2022 21:06:44 PM: INFO - Starting Add New Customer Test
+09/01/2022 21:07:02 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 21:07:06 PM: INFO - Navigating To Application
+09/01/2022 21:07:13 PM: INFO - Login Successful
+09/01/2022 21:07:13 PM: INFO - Starting Add New Customer Test
+09/01/2022 21:07:19 PM: INFO - Providing Customer Info
+09/01/2022 21:07:58 PM: INFO - Starting - Test_AddCustomer_004
+09/01/2022 21:08:02 PM: INFO - Navigating To Application
+09/01/2022 21:08:09 PM: INFO - Login Successful
+09/01/2022 21:08:09 PM: INFO - Starting Add New Customer Test
+09/01/2022 21:08:16 PM: INFO - Providing Customer Info
+09/01/2022 21:09:06 PM: INFO - Starting - Test_Login_DDT_002
+09/01/2022 21:09:10 PM: INFO - Navigating To Application
+09/01/2022 21:09:10 PM: INFO - Verifying Login DDT Test
+09/01/2022 21:09:22 PM: INFO - Test passed
+09/01/2022 21:09:32 PM: INFO - Test passed
+09/01/2022 21:09:38 PM: INFO - Test passed
+09/01/2022 21:09:44 PM: INFO - Test passed
+09/01/2022 21:09:44 PM: INFO - Login DDT Test passed
+09/01/2022 21:09:44 PM: INFO - ---------------Completed - Test_Login_DDT_002----------------
+09/01/2022 21:47:53 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 21:47:58 PM: INFO - Navigating To Application
+09/01/2022 21:47:58 PM: INFO - Verifying Login DDT Test
+09/01/2022 21:49:11 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 21:49:16 PM: INFO - Navigating To Application
+09/01/2022 21:49:16 PM: INFO - Verifying Login DDT Test
+09/01/2022 21:54:31 PM: INFO - Starting - Test_Login_001
+09/01/2022 21:54:35 PM: INFO - Navigating To Application
+09/01/2022 21:54:35 PM: INFO - Verifying the Homepage Title
+09/01/2022 21:54:39 PM: INFO - Homepage Title test is Passed
+09/01/2022 21:54:41 PM: INFO - Verifying Login Test
+09/01/2022 21:55:08 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 21:55:12 PM: INFO - Navigating To Application
+09/01/2022 21:55:12 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:03:11 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:03:16 PM: INFO - Navigating To Application
+09/01/2022 22:03:16 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:08:32 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:08:37 PM: INFO - Navigating To Application
+09/01/2022 22:08:37 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:10:21 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:10:33 PM: INFO - Navigating To Application
+09/01/2022 22:10:33 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:13:26 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:13:32 PM: INFO - Navigating To Application
+09/01/2022 22:13:32 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:16:37 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:16:42 PM: INFO - Navigating To Application
+09/01/2022 22:16:42 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:16:56 PM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+09/01/2022 22:18:35 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:18:40 PM: INFO - Navigating To Application
+09/01/2022 22:18:40 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:20:06 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:20:12 PM: INFO - Navigating To Application
+09/01/2022 22:20:12 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:23:16 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:23:21 PM: INFO - Navigating To Application
+09/01/2022 22:23:21 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:23:55 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:24:00 PM: INFO - Navigating To Application
+09/01/2022 22:24:00 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:24:11 PM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+09/01/2022 22:27:46 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:27:50 PM: INFO - Navigating To Application
+09/01/2022 22:27:50 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:28:50 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:28:53 PM: INFO - Navigating To Application
+09/01/2022 22:28:53 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:29:03 PM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+09/01/2022 22:30:51 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:30:56 PM: INFO - Navigating To Application
+09/01/2022 22:30:56 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:31:08 PM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+09/01/2022 22:32:32 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:32:35 PM: INFO - Navigating To Application
+09/01/2022 22:32:35 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:33:40 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:33:45 PM: INFO - Navigating To Application
+09/01/2022 22:33:45 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:34:32 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:34:36 PM: INFO - Navigating To Application
+09/01/2022 22:34:36 PM: INFO - Verifying Login DDT Test
+09/01/2022 22:43:59 PM: INFO - Starting - Test_Login_DDT_003
+09/01/2022 22:44:40 PM: INFO - Navigating To Application
+09/01/2022 22:44:40 PM: INFO - Verifying Login DDT Test
+10/01/2022 01:41:00 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:41:04 AM: INFO - Navigating To Application
+10/01/2022 01:41:04 AM: INFO - Verifying Login DDT Test
+10/01/2022 01:41:14 AM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+10/01/2022 01:42:25 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:42:30 AM: INFO - Navigating To Application
+10/01/2022 01:42:30 AM: INFO - Verifying Login DDT Test
+10/01/2022 01:43:29 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:43:33 AM: INFO - Navigating To Application
+10/01/2022 01:43:33 AM: INFO - Verifying Login DDT Test
+10/01/2022 01:43:45 AM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+10/01/2022 01:46:46 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:46:51 AM: INFO - Navigating To Application
+10/01/2022 01:46:51 AM: INFO - Verifying Login DDT Test
+10/01/2022 01:47:02 AM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+10/01/2022 01:54:21 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:54:25 AM: INFO - Navigating To Application
+10/01/2022 01:54:25 AM: INFO - Verifying Login DDT Test
+10/01/2022 01:54:36 AM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+10/01/2022 01:55:25 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:55:29 AM: INFO - Navigating To Application
+10/01/2022 01:55:29 AM: INFO - Verifying Login DDT Test
+10/01/2022 01:55:34 AM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+10/01/2022 01:56:11 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:56:16 AM: INFO - Navigating To Application
+10/01/2022 01:56:16 AM: INFO - Verifying Login DDT Test
+10/01/2022 01:56:22 AM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+10/01/2022 01:56:59 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 01:57:03 AM: INFO - Navigating To Application
+10/01/2022 01:57:03 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:00:22 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:00:27 AM: INFO - Navigating To Application
+10/01/2022 02:00:27 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:01:05 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:01:09 AM: INFO - Navigating To Application
+10/01/2022 02:01:09 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:03:52 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:03:56 AM: INFO - Navigating To Application
+10/01/2022 02:03:56 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:04:55 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:04:59 AM: INFO - Navigating To Application
+10/01/2022 02:04:59 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:07:29 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:07:32 AM: INFO - Navigating To Application
+10/01/2022 02:07:32 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:08:04 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:08:10 AM: INFO - Navigating To Application
+10/01/2022 02:08:10 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:09:32 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:09:37 AM: INFO - Navigating To Application
+10/01/2022 02:09:37 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:12:32 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:12:37 AM: INFO - Navigating To Application
+10/01/2022 02:12:37 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:14:09 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:14:13 AM: INFO - Navigating To Application
+10/01/2022 02:14:13 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:15:37 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:15:42 AM: INFO - Navigating To Application
+10/01/2022 02:15:42 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:18:39 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:18:43 AM: INFO - Navigating To Application
+10/01/2022 02:18:43 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:19:14 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:19:17 AM: INFO - Navigating To Application
+10/01/2022 02:19:17 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:19:52 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:19:57 AM: INFO - Navigating To Application
+10/01/2022 02:19:57 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:20:20 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:20:25 AM: INFO - Navigating To Application
+10/01/2022 02:20:25 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:21:16 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:21:20 AM: INFO - Navigating To Application
+10/01/2022 02:21:20 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:22:12 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:22:16 AM: INFO - Navigating To Application
+10/01/2022 02:22:16 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:23:15 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:23:19 AM: INFO - Navigating To Application
+10/01/2022 02:23:19 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:24:36 AM: INFO - Starting - Test_Login_DDT_003
+10/01/2022 02:24:40 AM: INFO - Navigating To Application
+10/01/2022 02:24:40 AM: INFO - Verifying Login DDT Test
+10/01/2022 02:24:50 AM: INFO - ---------------Completed - Test_Login_DDT_003----------------
+12/01/2022 17:27:22 PM: INFO - Starting - Test_AddCustomer_004
+12/01/2022 17:27:26 PM: INFO - Navigating To Application
+12/01/2022 17:27:34 PM: INFO - Login Successful
+12/01/2022 17:27:34 PM: INFO - Starting Add New Customer Test
+12/01/2022 17:27:41 PM: INFO - Providing Customer Info
+12/01/2022 17:27:42 PM: INFO - Saving Customer Info
+12/01/2022 17:27:42 PM: INFO - Add Customer validation started
+12/01/2022 17:27:43 PM: ERROR - Add Customer Test failed
+12/01/2022 17:27:43 PM: INFO - ---------------Completed - Test_AddCustomer_004---------------
+12/01/2022 18:00:50 PM: INFO - Verifying Login Test
+12/01/2022 18:00:55 PM: INFO - Starting - Test_Login_001
+12/01/2022 18:00:58 PM: INFO - Navigating To Application
+12/01/2022 18:00:58 PM: INFO - Verifying the Homepage Title
+12/01/2022 18:01:03 PM: INFO - Homepage Title test is Passed
+12/01/2022 18:01:04 PM: INFO - Verifying Login Test
+12/01/2022 18:01:12 PM: INFO - Login Test is Passed
+12/01/2022 18:01:36 PM: INFO - Starting - Test_Login_001
+12/01/2022 18:01:40 PM: INFO - Navigating To Application
+12/01/2022 18:01:40 PM: INFO - Verifying the Homepage Title
+12/01/2022 18:01:44 PM: INFO - Homepage Title test is Passed
+12/01/2022 18:01:46 PM: INFO - Verifying Login Test
+12/01/2022 18:01:54 PM: INFO - Login Test is Passed
+12/01/2022 18:02:19 PM: INFO - Starting - Test_Login_001
+12/01/2022 18:02:21 PM: INFO - Navigating To Application
+12/01/2022 18:02:21 PM: INFO - Verifying the Homepage Title
+12/01/2022 18:02:25 PM: INFO - Homepage Title test is Passed
+12/01/2022 18:02:26 PM: INFO - Verifying Login Test
+12/01/2022 18:02:33 PM: INFO - Login Test is Passed
+12/01/2022 18:03:58 PM: INFO - Starting - Test_AddCustomer_004
+12/01/2022 18:04:00 PM: INFO - Navigating To Application
+12/01/2022 18:04:03 PM: INFO - Login Successful
+12/01/2022 18:04:03 PM: INFO - Starting Add New Customer Test
+12/01/2022 18:04:09 PM: INFO - Providing Customer Info
+12/01/2022 18:04:10 PM: INFO - Saving Customer Info
+12/01/2022 18:04:10 PM: INFO - Add Customer validation started
+12/01/2022 18:04:11 PM: ERROR - Add Customer Test failed
+12/01/2022 18:04:11 PM: INFO - ---------------Completed - Test_AddCustomer_004---------------
+13/01/2022 10:00:17 AM: INFO - Starting - Test_AddCustomer_004

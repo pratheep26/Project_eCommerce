@@ -52,7 +52,7 @@ class Test_AddCustomer_004:
         self.addCust.setCompanyName("Credo")
         self.addCust.setVendor("Vendor 1")
         self.addCust.setAdminComment("This is learning purpose")
-        self.addCust.clickOnSave()
+        #self.addCust.clickOnSave()
 
 
         self.logger.info("Saving Customer Info")
