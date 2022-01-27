@@ -1,0 +1,3 @@
+[32mINFO    [0m Test_Login_DDT_002:test_Login_DDT_002.py:20 Starting - Test_Login_DDT_002
+[32mINFO    [0m Test_Login_DDT_002:test_Login_DDT_002.py:23 Navigating To Application
+[32mINFO    [0m Test_Login_DDT_002:test_Login_DDT_002.py:26 Verifying Login DDT Test

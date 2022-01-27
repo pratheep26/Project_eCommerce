@@ -5,14 +5,14 @@ from pageObjects.Login_PageObjects import LoginPage
 from pageObjects.AddCustomer_PageObjects import AddCustomer
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import custom_Logger
-
+from utilities import XLUtilies
 import string
 import random
 
 class Test_AddCustomer_004:
     baseURL = ReadConfig.getApplicationURL()
     username = ReadConfig.getUserEmail()
-    pwd = ReadConfig.getPassword()
+    password = ReadConfig.getPassword()
 
     logger=custom_Logger.custstomLogger()
 
@@ -26,7 +26,7 @@ class Test_AddCustomer_004:
 
         self.loginPageObj=LoginPage(self.driver)
         self.loginPageObj.setUserName(self.username)
-        self.loginPageObj.setPassword(self.pwd)
+        self.loginPageObj.setPassword(self.password)
         self.loginPageObj.clickLogin()
 
         self.logger.info("Login Successful")
@@ -41,6 +41,11 @@ class Test_AddCustomer_004:
         self.addCust.clickOnAddNew()
 
         self.logger.info("Providing Customer Info")
+
+
+
+
+
 
         self.emailID=random_generator() + "@gmail.com"
         self.addCust.setEmail(self.emailID)

@@ -48,6 +48,12 @@ class Test_Login_001:
         self.loginPageobjects.setPassword(self.password)
         self.loginPageobjects.clickLogin()
         act_title=self.driver.title
+
+
+        # title = "Dashboard / opCommerce administration"
+        # assert act_title in title, "Title doesn't match"
+
+
         if act_title=="Dashboard / nopCommerce administration":
             assert True
             self.logger.info("Login Test is Passed")

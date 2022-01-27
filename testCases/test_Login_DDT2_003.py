@@ -10,7 +10,7 @@ from utilities import XLUtilies
 
 class Test_Login_DDT_003:
     baseURL=ReadConfig.getApplicationURL()
-    path=".\\TestData\\LoginDataWithOutExp.xlsx"
+    path=".\\TestData\\LoginDataWithExp.xlsx"
 
     logger=custom_Logger.custstomLogger()
 
@@ -25,12 +25,12 @@ class Test_Login_DDT_003:
 
         self.logger.info("Verifying Login DDT Test")
 
-        self.rows=XLUtilies.getRowCount(self.path,'Sheet1')
+        self.rows=XLUtilies.getRowCount(self.path,'LoginData1')
         print("Number of rows in Excel:",self.rows)
 
         for r in range(2, self.rows + 1):
-            self.userName = XLUtilies.readData(self.path, "Sheet1", r, 1)
-            self.pwd = XLUtilies.readData(self.path, "Sheet1", r, 2)
+            self.userName = XLUtilies.readData(self.path, "LoginData1", r, 1)
+            self.pwd = XLUtilies.readData(self.path, "LoginData1", r, 2)
 
             self.loginPageobjects.setUserName(self.userName)
             self.loginPageobjects.setPassword(self.pwd)
@@ -42,10 +42,10 @@ class Test_Login_DDT_003:
             if actTitle == exptitle:
                 print("Test is passed")
                 self.loginPageobjects.clickLogout()
-                XLUtilies.writeData(self.path, "Sheet1", r, 3, "Test passed")
+                XLUtilies.writeData(self.path, "LoginData1", r, 3, "Test passed")
             else:
                 print("Test is passed")
-                XLUtilies.writeData(self.path, "Sheet1", r, 3, "Test failed")
+                XLUtilies.writeData(self.path, "LoginData1", r, 3, "Test failed")
 
         self.driver.close()
 
